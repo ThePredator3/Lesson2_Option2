@@ -59,3 +59,15 @@ void WriteStatistic()
     outputStream << note << std::endl;
 }
 
+std::string WriteNotes()
+{
+    std::cout << "input your comment: ";
+    
+    std::string note = " ";
+    std::getline(std::cin, note);
+    
+    std::cout << note << std::endl;
+    
+    return note;
+}
+
